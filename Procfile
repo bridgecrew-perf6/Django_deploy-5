@@ -1,1 +1,1 @@
-web: guinicorn hgtecti.wsgi --log-file -
+web: gunicorn hgtecti.wsgi --log-file -
