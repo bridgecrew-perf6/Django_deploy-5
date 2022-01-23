@@ -1,0 +1,15 @@
+language: python
+python:
+  - "3.9"
+env:
+  global:
+    - PIPENV_VENV_IN_PROJECT=1 #Para pipenv criar o ambiente virtual dentro a pasta do projeto
+    - PIPENV_IGNORE_VIRTUALENVS=1 #Para pipenv ignore qualquer ambiente virtual que já tem sindo criada
+# command to install dependencies
+install:
+  - pip install pipenv
+  - pipenv sync -d
+# command to run tests
+script:
+  - pipenv run flake8 .
+  - # pytest

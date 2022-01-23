@@ -8,6 +8,7 @@ django = "==3.2.11"
 gunicorn = "*"
 
 [dev-packages]
+flake8 = "*"
 
 [requires]
 python_version = "3.9"
