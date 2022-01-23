@@ -1,6 +1,7 @@
 from django.urls import path
-from . import views
+from .views import HomeView, hello 
 
 urlpatterns = [
-    path('', views.index, name='index'),
+    path('hello', hello, name='hello-world'),
+    path('', HomeView.as_view(), name='home'),
 ]
