@@ -1,3 +1,3 @@
 # Django_deploy
 
-https://app.travis-ci.com/telemac-dev/Django_deploy.svg?branch=main
+[![Build Status](https://app.travis-ci.com/telemac-dev/Django_deploy.svg?branch=main)](https://app.travis-ci.com/telemac-dev/Django_deploy)
